@@ -19,7 +19,8 @@ public class BMI_1{
         } 
         float bmi = weight/((height*height)/(100*100));//calculate bmi
         if(flag == 1){
-            System.out.println("your bmi is : " + bmi);//outputb bmi
+            System.out.println("your bmi is : " + bmi);
+            
             //bmi suggestion
             if(bmi < 18.5){
                 System.out.println("you are Underweight\nyou should increase "+((18.5*height*height)/(100*100)-weight)+"kg");
