@@ -21,8 +21,8 @@ public class BMI_2{
         if(flag == 1){
             System.out.println("your bmi is : " + bmi);//outputb bmi
             //bmi suggestion
-            System.out.println((bmi < 18.5) ? ("you are Underweight\nyou should increase "+((18.5*height*height)/(100*100)-weight)+"kg"):
-                                ((bmi < 24) ? ("you are Normal\nyou should keep your weight"):
+            System.out.println(bmi < 18.5 ? ("you are Underweight\nyou should increase "+((18.5*height*height)/(100*100)-weight)+"kg"):
+                                (bmi < 24 ? ("you are Normal\nyou should keep your weight"):
                                 ((bmi < 27) ? ("you are Overweight(a little)\nyou should decrease"+((24*height*height)/(100*100)-weight)+"kg"):
                                 ((bmi < 30) ? ("you are Overweight(middle)\nyou should decrease"+((24*height*height)/(100*100)-weight)+"kg"):
                                 ((bmi < 35) ? ("you are Obese\nyou should decrease"+((24*height*height)/(100*100)-weight)+"kg"):
