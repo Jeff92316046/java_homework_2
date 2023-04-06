@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.lang.Math;
-import java.lang.reflect.Type;
+
 
 public class eng_test {
     public static void main(String[] args){
@@ -10,7 +10,7 @@ public class eng_test {
         int mode = 0;      
         ArrayList<String> phrase = new ArrayList<String>(Arrays.asList("blow up","bring up","call off","do over","fill out","fill up","find out","give away","give back","hand in","hang up","hold up","leave out","look over","look up","make up","pick out","pick up","point out","put away"));
         ArrayList<String> pharse_ts = new ArrayList<String>(Arrays.asList("爆炸","提起","取消","重複","填好","填滿","發現","贈送","歸還","繳交","懸掛","使延遲","省略","檢查","尋找","虛構","挑選","舉起","引起注意","儲蓄"));
-        //"blow up","bring up","call off","do over","fill out","fill up","find out","give away","give back","hand in","hang up","hold up","leave out","look over","look up","make up","pick out","pick up","point out","put away"	
+        //"blow up","bring up","call  off","do over","fill out","fill up","find out","give away","give back","hand in","hang up","hold up","leave out","look over","look up","make up","pick out","pick up","point out","put away"	
         //"爆炸","提起","取消","重複","填好","填滿","發現","贈送","歸還","繳交","懸掛","使延遲","省略","檢查","尋找","虛構","挑選","舉起","引起注意","儲蓄"
         ArrayList<Integer> flag = new ArrayList<Integer>(Arrays.asList(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0));
         ArrayList<Integer> flag_2 = new ArrayList<Integer>(Arrays.asList(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0));

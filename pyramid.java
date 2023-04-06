@@ -6,6 +6,7 @@ public class pyramid {
         do{                                         
             int num = 0;
             String str = "abc";
+            
             int choise = -1;
             System.out.print("輸入 n (金字塔高度)(n為-1時結束程式)(n為奇數,n>=1):"); //hint to input 
             try{ 
@@ -104,11 +105,12 @@ public class pyramid {
                     
                     System.out.print("\n"); 
                     
-
+                    
                 }
             } 
             while(true)break;
         }while(true);
+        
     }
 }
 
